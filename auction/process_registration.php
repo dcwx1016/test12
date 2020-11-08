@@ -10,3 +10,4 @@ $connection = mysqli_connect('localhost','yangzou','123','auction_13');
 $query = "INSERT INTO Users (Email, Password) VALUES ('yang@123','1111')";
 $result = mysqli_query($connection, $query);
 mysqli_close($connection);
+mysqli_close($connection);
